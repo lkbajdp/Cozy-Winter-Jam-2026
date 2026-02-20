@@ -26,4 +26,8 @@ public class GameManager : MonoBehaviour
         currentState = newState;
         OnStateChanged?.Invoke(newState);
     }
+
+    public void LoadMainMenu() => sceneLoader.LoadScene("MainMenu");
+    public void LoadGameScene() => sceneLoader.LoadScene("Game");
+    public void QuitGame() => Application.Quit();
 }
