@@ -674,8 +674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5de9842628a59ed459da52ab9d23bcbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
-  loadingScreen: {fileID: 0}
-  progressBar: {fileID: 0}
+  _loadingScreenPrefab: {fileID: 0}
 --- !u!1 &1002435932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,8 +1042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5de9842628a59ed459da52ab9d23bcbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
-  loadingScreen: {fileID: 0}
-  progressBar: {fileID: 0}
+  _loadingScreenPrefab: {fileID: 7664577821170450972, guid: 15bbcbce3f3d5cd43b54aa34d69f2289, type: 3}
 --- !u!114 &1939127379
 MonoBehaviour:
   m_ObjectHideFlags: 0
