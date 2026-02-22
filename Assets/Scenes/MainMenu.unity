@@ -1055,7 +1055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7b6df86cc52fc45b8b9e60b33e0e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  sceneLoader: {fileID: 0}
+  sceneLoader: {fileID: 1939127378}
 --- !u!4 &1939127380
 Transform:
   m_ObjectHideFlags: 0
