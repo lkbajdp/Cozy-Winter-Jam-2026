@@ -97,3 +97,12 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Ignore the folder with the DLL libraries themselves
+Assets/Packages/
+
+# Not ignore NuGet configuration files
+!Assets/NuGet.config
+!Assets/packages.config
+!Assets/NuGet.config.meta
+!Assets/packages.config.meta
